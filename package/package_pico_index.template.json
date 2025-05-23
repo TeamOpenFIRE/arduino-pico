@@ -10,8 +10,8 @@
          },
          "platforms": [
             {
-               "category": "Raspberry Pi Pico",
-               "name": "Raspberry Pi Pico/RP2040/RP2350",
+               "category": "Raspberry Pi Pico (TUSB Fix)",
+               "name": "Raspberry Pi Pico/RP2040/RP2350 (TUSB Fix)",
                "url": "",
                "version": "",
                "architecture": "rp2040",
