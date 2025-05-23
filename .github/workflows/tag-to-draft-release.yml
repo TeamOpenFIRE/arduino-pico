@@ -25,7 +25,7 @@ jobs:
     - name: Build package JSON
       env:
         BUILD_TYPE: package
-        CI_GITHUB_API_KEY: ${{ secrets.GITHUB_TOKEN }}
+        CI_GITHUB_API_KEY: ${{ secrets.REPO_PAT }}
       run: |
            (cd pico-sdk && git submodule update --init)
            (cd ./package && bash ./build_boards_manager_package.sh)
